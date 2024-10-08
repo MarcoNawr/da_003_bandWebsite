@@ -163,6 +163,19 @@ a {
 }
 
 /* =================================================================================================
-    FESTIVAL
+    Slogan
 ================================================================================================= */
-#sectionSlogan {}
+#sectionSlogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+}
+
+.slogan {
+    font-size: 24px;
+    color: #AF8947;
+    text-align: center;
+    padding: 4rem;
+}
