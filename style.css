@@ -226,7 +226,7 @@ footer {
 input {
     height: 44px;
     padding-left: 16px;
-    width: 60%;
+    flex-grow: 1;
 }
 
 input::placeholder {
