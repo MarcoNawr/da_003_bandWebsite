@@ -179,3 +179,14 @@ a {
     text-align: center;
     padding: 4rem;
 }
+
+
+/* =================================================================================================
+    Video
+================================================================================================= */
+#sectionVideo {
+    background-image: url("./img/bottom.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
