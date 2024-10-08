@@ -113,5 +113,38 @@ a {
 .quickLink__img {
     width: 25vw;
     object-fit: cover;
+}
 
+/* =================================================================================================
+    FESTIVAL
+================================================================================================= */
+#sectionFestival {
+    display: flex;
+    background-color: #272727;
+}
+
+.flex1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex1>img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.festivalDescription {
+    padding: 30px;
+    border-right: 1px solid white;
+}
+
+.textTall {
+    font-size: 1.5rem;
+}
+
+.textExtraTall {
+    font-size: 2rem;
+    padding-bottom: 20px;
 }
