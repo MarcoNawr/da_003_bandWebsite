@@ -190,3 +190,56 @@ a {
     background-size: cover;
     background-position: center;
 }
+
+/* =================================================================================================
+    Footer
+================================================================================================= */
+footer {
+    display: flex;
+    background-color: black;
+    padding: 4rem;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.socialMediaIcon {
+    width: 32px;
+}
+
+.footer-left {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    padding-right: 16px;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 44px;
+    padding-left: 16px;
+    width: 60%;
+}
+
+input::placeholder {
+    color: gray;
+
+}
+
+.button-footer {
+    width: 200px;
+    border-width: 0;
+}
+
+.footerForm {
+    display: flex;
+    justify-content: center;
+}
