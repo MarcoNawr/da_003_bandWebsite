@@ -1,6 +1,10 @@
+/* =================================================================================================
+    Global
+================================================================================================= */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,6 +12,53 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 5.25rem;
+    font-family: "Viga", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #AF8947;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #AF8947;
+    color: white;
+    padding: 16px;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+.button:hover {
+    background-color: #c9a05b;
+}
+
+@media(max-width: 800px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4.25rem;
+    }
+}
+
+
+/* =================================================================================================
+    ATF (Above the fold)
+================================================================================================= */
 #sectionATF {
     background-image: url(./img/header.png);
     height: 100vh;
@@ -29,6 +80,8 @@ header {
 header>img {
     width: 100px;
 }
+
+
 
 .navLink {
     color: white;
@@ -63,37 +116,6 @@ header>img {
     font-size: 2rem;
 }
 
-h1 {
-    font-size: 5.25rem;
-    font-family: "Viga", sans-serif;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #AF8947;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-.button {
-    background-color: #AF8947;
-    color: white;
-    padding: 16px;
-}
-
-.mt16 {
-    margin-top: 16px;
-}
-
-.button:hover {
-    background-color: #c9a05b;
-}
 
 /* =================================================================================================
     QuickLinks
@@ -225,7 +247,7 @@ footer {
 }
 
 input {
-    height: 44px;
+    height: 48px;
     padding-left: 16px;
     flex-grow: 1;
 }
